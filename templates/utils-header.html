@@ -1,0 +1,67 @@
+<header id="header" class="header-default">
+    <div class="top-nav-wrapper container-fluid">
+        <div class="row">
+            <div class="header-left col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <a href="{{ url_for("eshop_index") }}" title="Bigcart"> <img class="img-responsive" src="/static/images/logo.png" alt="Bigcart"> </a>
+            </div>
+            <nav class="navbar main-nav col-lg-6 col-md-7 hidden-sm hidden-xs">
+                <ul class="nav header-nav">
+                    <li><a href="{{ url_for("eshop_index") }}">Home</a></li>
+                    <li class="dropdownn mega-dropdown"> <a href="core-eshop.html#" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
+                        <ul class="dropdown-menu mega-dropdown-menu ul-level-2 animated fadeIn">
+                            <li class="col-sm-3">
+                                <ul class="ul-level-3">
+                                    <li class="dropdown-header">Event</li>
+                                    <li class="new-item"><a href="core-pg-categorylist.html">Newest</a></li>
+                                    <li><a href="core-pg-categorylist.html">Hottest</a></li>
+                                    <li><a href="core-pg-categorylist.html">Concessional</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul class="ul-level-3">
+                                    <li class="dropdown-header">Products</li>
+                                    {% for category in settings.category2_items %}
+                                        <li><a href="{{ url_for("pg_category", name=category.cid) }}">{{ category.title }}</a></li>
+                                    {% endfor %}
+                                </ul>
+                            </li>
+                            <li class="col-sm-3">
+                                <ul class="ul-level-3">
+                                    <li class="dropdown-header">User</li>
+                                    <li><a href="cart-page.html">Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="whishlist.html">Wishlist</a></li>
+                                    <li><a href="track-order.html">Order</a></li>
+                                    <li><a href="my-account.html">Login</a></li>
+                                    <li><a href="my-account.html">My Account</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="core-contact.html">Contact</a></li>
+                    <li><a href="{{ url_for("settings") }}">设置</a></li>
+                </ul>
+            </nav>
+            <div class="header-right col-lg-3 col-md-2 col-sm-6 col-xs-6">
+                <ul class="pull-right">
+                    <li class="dropdown header-search"> <a href="core-eshop.html#" class="header-icon search-icon" data-toggle="dropdown">Search</a>
+                        <div class="dropdown-search animated fadeIn dropdown-menu">
+                            <form class="form">
+                                <input class="sb-search-input" placeholder="Enter your keyword..." type="text" value="" name="search" id="search" />
+                                <button class="btn sb-search-submit" type="submit"><span>Search</span></button>
+                            </form>
+                        </div>
+                    </li>
+                    <li class="dropdown header-login"> <a href="core-eshop.html#" class="header-icon user-icon" data-toggle="dropdown">Account</a>
+                        <div class="dropdown-menu header-account animated fadeIn">
+                            <h5>LOGIN OR REGISTER</h5> <a href="my-account.html" class="btn btn-small btn-login">Login</a>
+                            <p class="">OR</p> <a href="my-account.html" class="btn btn-small btn-register">Create account</a> </div>
+                    </li>
+                    <li>
+                        <a href="#" class="navicon"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

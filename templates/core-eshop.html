@@ -1,0 +1,64 @@
+{% import 'utils-index.html' as utils %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BigCart Home Creative HTML</title>
+    <meta charset="utf-8">
+    {% include 'utils-html-head.html' %}
+</head>
+
+<body id="index" class="index home-creative">
+<div id="page">
+    {% include 'utils-menu-sidebar.html' %}
+    <div class="content">
+        {% include 'utils-header.html' %}
+        <div class="main-content">
+            <div class="slideshow homedefault-slider">
+                <div class="home-slide slider">
+                    {% include 'utils-index-carousel.html' %}
+                </div>
+            </div>
+            <div class="feature-categories margin-bottom-15">
+                <div class="container-fluid">
+                    <div class="row">
+                        {% for item in settings.category2_items %}
+                            {{ utils.feature(item.cid, item.title, item.img) }}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="collection">
+                {{ utils.collectionL(h5="标题h5" , h4="我是测试的") }}
+                {{ utils.collectionR(h5="Flat Summer Offer!", h4="Top RATED Accessories") }}
+                {{ utils.collectionL(h5="Flat 50% Discount On Today!", h4="WOMEN WINTER COLLECTION") }}
+            </div>
+            <div class="product-carousel margin-bottom-35">
+                <div class="callout margin-bottom-30">
+                    <div class="container">
+                        <div class="row">
+                            <p class="text-center">Best Selling Product</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="product-curousel">
+                            {% for num in range(settings.hot_sell_num|int) %}
+                                {% if [0, 1]|random %}
+                                    {{ utils.bestselling(logo=True) }}
+                                {% else %}
+                                    {{ utils.bestselling() }}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include 'utils-footer.html' %}
+        <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a></div>
+</div>
+</body>
+
+</html>

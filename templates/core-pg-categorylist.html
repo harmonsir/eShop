@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BigCart Shop Fullwidth HTML</title>
+    {% include 'utils-html-head.html' %}
+</head>
+
+<body id="index" class="index shop-fullwidth">
+    <div id="page">
+        {% include 'utils-menu-sidebar.html' %}
+        <div class="content">
+            {% include 'utils-header.html' %}
+            <div class="site-content">
+                <div class="title_outer title-shop-fullwidth margin-bottom-65">
+                    <div class="container">
+                        <div class="title_holder white text-center">
+                            <h1><span>Shop Fullwidth</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-fullwidth margin-bottom-55">
+                    <div class="container">
+                        <div class="shop-content">
+                            <div class="shop--toolbar margin-bottom-35">
+                                <div class="row">
+                                    <div class="shop--pro-show col-md-6 col-xs-6">
+                                        <div class="pro-show-wrap text-left">
+                                            <span>Showing 1-12 of 30 products</span>
+                                        </div>
+                                    </div>
+                                    <div class="shop--short-by col-md-6 col-xs-6">
+                                        <div class="short-by-wrap text-right">
+                                            <select class="sort-select">
+                                                <option>Default Shorting</option>
+                                                <option>Name Ascending</option>
+                                                <option>Name Descending</option>
+                                                <option>Date Ascending</option>
+                                                <option>Date Descending</option>
+                                                <option>Price Ascending</option>
+                                                <option>Price Descending</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop--products">
+                                <div class="row">
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/3/image1xxl.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Outerwaer</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Stripe Long Sleeve Top</a></h4>
+                                            <span class="price">£85.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/37/6548516-1-khaki.jpg" alt="" />
+                                            </a>
+                                            <span class="sticker sale"><strong>Sale</strong></span>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">ACCESSORIES</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Grey Printed Backback</a></h4>
+                                            <span class="price">£105.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/16/image1xx1.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Tshirt</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">The Strappy Ribcami</a></h4>
+                                            <span class="price">£51.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/32/6300689-1-palegreymarl.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Outerwaer</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Granted Longline Vest</a></h4>
+                                            <span class="price">£99.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/30/6300910-1-midgrey.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Outerwaer</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Grasphy Woolen Sweater</a></h4>
+                                            <span class="price">£88.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/28/7169329-1-blush.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Outerwaer</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Silver Metallic T-Shirt</a></h4>
+                                            <span class="price">£51.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/10/ETQ-Amsterdam-Chelsea-Boot-Earth-Side.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Footwear & Shoes</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Kickers Kick Lo Shoes</a></h4>
+                                            <span class="price">£110.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/6/image1xxl.jpg" alt="" />
+                                            </a>
+                                            <span class="sticker sale"><strong>Sale</strong></span>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Tshirt</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Spring Martre Full Shirt</a></h4>
+                                            <span class="price">£65.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/1/image1xxl.jpg" alt="" />
+                                            </a>
+                                            <span class="sticker sale"><strong>Sale</strong></span>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Outerwaer</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Bluberry Woolen Tshirt</a></h4>
+                                            <span class="price">£67.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/4/image1xxl.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Tshirt & Cloths</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">White Full hand Facyiator </a></h4>
+                                            <span class="price">£99.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/35/6874460-1-grey.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Jackets & Coats</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Wool Ghost Print T-Shirt</a></h4>
+                                            <span class="price">£51.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/13/C2185-145-view11.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">ACCESSORIES</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Canada Tazerro Backbag</a></h4>
+                                            <span class="price">£149.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/2/image1xxl.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Jackets & Coats</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Wool Ghost Print T-Shirt</a></h4>
+                                            <span class="price">£99.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/8/ETQ-Amsterdam-High-1-Point-Grey-Front.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Footwear</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Timber Print Boat Shoes</a></h4>
+                                            <span class="price">£135.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/14/image1xxl.jpg" alt="" />
+                                            </a>
+                                            <span class="sticker sale"><strong>Sale</strong></span>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Outerwaer</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Lawrance Polo Tee Jack</a></h4>
+                                            <span class="price">£45.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="product text-center col-md-3 col-sm-4 col-xs-6">
+                                        <div class="hover-box">
+                                            <a class="img-product" href="{{ url_for("pg_detail", name=1) }}">
+                                                <img class="img-responsive" src="/static/images/products/15/image1xxl.jpg" alt="" />
+                                            </a>
+                                            <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                            <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                        </div>
+                                        <div class="product-info">
+                                            <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=1) }}">Tshirt</a></h3>
+                                            <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">Stripe Long Sleeve Top</a></h4>
+                                            <span class="price">£120.00</span>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop--toolbar">
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <div class="pagination">
+                                            <ul>
+                                                <li><a href="{{ url_for("pg_detail", name=1) }}" class="hidden"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+                                                <li><a href="{{ url_for("pg_detail", name=1) }}" class="active">1</a></li>
+                                                <li><a href="{{ url_for("pg_detail", name=1) }}">2</a></li>
+                                                <li><a href="{{ url_for("pg_detail", name=1) }}">3</a></li>
+                                                <li><a href="{{ url_for("pg_detail", name=1) }}">4</a></li>
+                                                <li><a href="{{ url_for("pg_detail", name=1) }}"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% include 'utils-footer.html' %}
+            <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

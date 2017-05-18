@@ -1,0 +1,125 @@
+{% macro collectionL(h5="", h4="", pos="left") -%}
+    {% set pos2 = "right" %}
+
+<div class="row">
+    <div id="collection-1" class="collection-item">
+        <div class="col-sm-6 col-xs-12 collection-picture collection-{{ pos }}"> &nbsp; </div>
+        <div class="col-sm-6 col-xs-12 collection-product-slide collection-{{ pos2 }}">
+            <div class="heading heading-collection text-center">
+                <h5>{{ h5 }}</h5>
+                <h4>{{ h4 }}</h4> </div>
+            <div class="left-product-slide slider col-lg-8 col-lg-offset-2">
+                <div class="product text-center col-lg-3">
+                    <div class="hover-box">
+                        <a class="img-product" href="{{ url_for("pg_detail", name=3) }}"> <img class="img-responsive" src="static/images/products/14/image1xxl.jpg" alt="" /> </a> <span class="sticker sale"><strong>Sale</strong></span>
+                        <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=3) }}">Outerwaer</a></h3>
+                        <h4 class="product-title"><a href="{{ url_for("pg_detail", name=3) }}">Lawrance Polo Tee Jack</a></h4> <span class="price">£99.00</span> </div>
+                    <hr> </div>
+                <div class="product text-center col-lg-3">
+                    <div class="hover-box">
+                        <a class="img-product" href="{{ url_for("pg_detail", name=3) }}"> <img class="img-responsive" src="static/images/products/4/image1xxl.jpg" alt="" /> </a>
+                        <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=3) }}">Tshirt & Cloths</a></h3>
+                        <h4 class="product-title"><a href="{{ url_for("pg_detail", name=3) }}">Lawrance Polo Tee Jack</a></h4> <span class="price">£85.00</span> </div>
+                    <hr> </div>
+                <div class="product text-center col-lg-3">
+                    <div class="hover-box">
+                        <a class="img-product" href="{{ url_for("pg_detail", name=3) }}"> <img class="img-responsive" src="static/images/products/14/image1xxl.jpg" alt="" /> </a>
+                        <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=3) }}">Jackets & Coats</a></h3>
+                        <h4 class="product-title"><a href="{{ url_for("pg_detail", name=3) }}">Lawrance Polo Tee Jack</a></h4> <span class="price">£85.00</span> </div>
+                    <hr> </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%- endmacro %}
+
+{% macro collectionR(h5="", h4="", pos="right") -%}
+    {% set pos2 = "left" %}
+
+<div class="row">
+    <div id="collection-2" class="collection-item">
+        <div class="col-sm-6 hidden-sm visible-xs-block collection-picture"></div>
+        <div class="col-sm-6 col-xs-12 collection-product-slide collection-left">
+            <div class="heading heading-collection text-center">
+                <h5>{{ h5 }}</h5>
+                <h4>{{ h4 }}</h4> </div>
+            <div class="left-product-slide slider col-lg-8 col-lg-offset-2">
+                <div class="product text-center col-lg-3">
+                    <div class="hover-box">
+                        <a class="img-product" href="{{ url_for("pg_detail", name=3) }}"> <img class="img-responsive" src="static/images/products/8/ETQ-Amsterdam-High-1-Point-Grey-Front.jpg" alt="" /> </a>
+                        <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=3) }}">Footwear & Shoes</a></h3>
+                        <h4 class="product-title"><a href="{{ url_for("pg_detail", name=3) }}">Timber Print Boat Shoes</a></h4> <span class="price">£110.00</span> </div>
+                    <hr> </div>
+                <div class="product text-center col-lg-3">
+                    <div class="hover-box">
+                        <a class="img-product" href="{{ url_for("pg_detail", name=3) }}"> <img class="img-responsive" src="static/images/products/37/6548516-1-khaki.jpg" alt="" /> </a> <span class="sticker sale"><strong>Sale</strong></span>
+                        <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=3) }}">ACCESSORIES</a></h3>
+                        <h4 class="product-title"><a href="{{ url_for("pg_detail", name=3) }}">Grey Printed Backback</a></h4> <span class="price">£85.00</span> </div>
+                    <hr> </div>
+                <div class="product text-center col-lg-3">
+                    <div class="hover-box">
+                        <a class="img-product" href="{{ url_for("pg_detail", name=3) }}"> <img class="img-responsive" src="static/images/products/37/6548516-1-khaki.jpg" alt="" /> </a>
+                        <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                        <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="pc-title"><a href="{{ url_for("pg_detail", name=3) }}">ACCESSORIES</a></h3>
+                        <h4 class="product-title"><a href="{{ url_for("pg_detail", name=3) }}">Grey Printed Backback</a></h4> <span class="price">£85.00</span> </div>
+                    <hr> </div>
+            </div>
+        </div>
+        <div class="col-sm-6 hidden-xs collection-picture collection-right"></div>
+    </div>
+</div>
+{%- endmacro %}
+
+
+{% macro bestselling(good="",logo=False) -%}
+    {% if (not defined) or (not good) %}
+        {% set good = {"category":"Jackets & Coats", "title":"Lawrance Polo Tee Jack ABC", "price":"£178.00", "img":"static/images/products/3/image1xxl.jpg"} %}
+    {% endif %}
+
+<div class="product text-center">
+<div class="hover-box">
+    <a class="img-product" href="{{ url_for("pg_detail", name=2) }}"> <img class="img-responsive" src="{{ good.img }}" alt="" /> </a>
+    {% if logo %}
+        <span class="sticker sale"><strong>Sale</strong></span>
+    {% endif %}
+    <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i> </button>
+    <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i> </button>
+</div>
+<div class="product-info">
+    <h3 class="pc-title"><a href="{{ url_for("pg_category", name=1) }}">{{ good.category }}</a></h3>
+    <h4 class="product-title"><a href="{{ url_for("pg_detail", name=1) }}">{{ good.title }}</a> </h4> <span class="price">{{ good.price }}</span> </div>
+    <hr/>
+</div>
+{%- endmacro %}
+
+{% macro feature(cid="#", title="", img="#") -%}
+    <div class="col-md-3 col-xs-6 feature-item">
+        <div class="feature-item-content"><img class="img-responsive" src="{{ img }}" alt="{{ title }}">
+            <h4 class="title-property"><a class="btn btn-medium btn-white" href="{{ url_for("pg_category", name=cid) }}">{{ title }}</a></h4>
+        </div>
+    </div>
+{%- endmacro %}
+

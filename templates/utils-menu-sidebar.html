@@ -1,0 +1,27 @@
+<div class="side-menu">
+    <div class="sm-logo">
+        <p>
+            <a href="{{ url_for("eshop_index") }}"><img src="/static/images/logo-sm.png" alt=""/></a>
+            <a class="cancel-btn pull-right navicon" href="#">
+                <i class="fa fa-times" aria-hidden="true"> </i>
+            </a>
+        </p>
+    </div>
+    <div class="sm-banner pbt"><img src="/static/images/sm-banner.jpg" class="img-responsive" alt=""/></div>
+    <nav class="nav nav-side-menu pbt">
+        <ul>
+            <li><a href="{{ url_for("eshop_index") }}">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="form-news-letter">
+        <p>Sign up for bigcart</p>
+        <form class="form" action="core-eshop.html#">
+            <div class="form-inner">
+                <input type="text" name="subs" placeholder="Email Address">
+                <button class="submit" type="submit"><span>Go</span></button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BigCart Simple Product HTML</title>
+    {% include 'utils-html-head.html' %}
+</head>
+
+<body id="index" class="index">
+    <div id="page">
+        {% include 'utils-menu-sidebar.html' %}
+        <div class="content">
+            {% include 'utils-header.html' %}
+            <div class="site-content">
+                <div class="page-breadcrumb margin-bottom-45">
+                    <div class="container">
+                        <div class="row">
+                            <ul class="breadcrumb">
+                                <li><a href="core-pg-productdetail.html#">Shop</a></li>
+                                <li><a href="core-pg-productdetail.html#">Outerwear</a></li>
+                                <li><a href="core-pg-productdetail.html#">Blue Printed Hoodies</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-details-page">
+                    <div class="container">
+                        <div class="product-details fix margin-bottom-25">
+                            <div class="row">
+                                <div class="product-details-image col-md-6 col-xs-12 margin-bottom-20">
+                                    <div class="row">
+                                        <div class="product-thumbnails col-sm-2 hidden-xs">
+                                            <ul class="nav product-thumbnail-img" id="productthumbnail">
+                                                <li>
+                                                    <a><img class="img-responsive" src="/static/images/products/15/image1xxl.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a><img class="img-responsive" src="/static/images/products/15/image2xxl.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a><img class="img-responsive" src="/static/images/products/15/image2xxl.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a><img class="img-responsive" src="/static/images/products/15/image3xxl.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a><img class="img-responsive" src="/static/images/products/15/image4xxl.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a><img class="img-responsive" src="/static/images/products/15/image4xxl.jpg" alt=""></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-10 col-xs-12">
+                                            <div id="ProductPhoto">
+                                                <div><img class="img-responsive" src="/static/images/products/15/image1xxl.jpg" alt=""></div>
+                                                <div><img class="img-responsive" src="/static/images/products/15/image2xxl.jpg" alt=""></div>
+                                                <div><img class="img-responsive" src="/static/images/products/15/image2xxl.jpg" alt=""></div>
+                                                <div><img class="img-responsive" src="/static/images/products/15/image3xxl.jpg" alt=""></div>
+                                                <div><img class="img-responsive" src="/static/images/products/15/image4xxl.jpg" alt=""></div>
+                                                <div><img class="img-responsive" src="/static/images/products/15/image4xxl.jpg" alt=""></div>
+                                            </div>
+                                        </div>
+                                        <div class="product-thumbnails col-md-2 col-xs-12 visible-xs-block hidden-sm">
+                                            <ul class="nav product-thumbnail-img" id="productthumbs">
+                                                <li>
+                                                    <a><img class="img-responsive" src="/static/images/products/15/image1xxl.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a><img class="img-responsive" src="/static/images/products/15/image2xxl.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a><img class="img-responsive" src="/static/images/products/15/image3xxl.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a><img class="img-responsive" src="/static/images/products/15/image4xxl.jpg" alt=""></a>
+                                                </li>
+                                                <li>
+                                                    <a><img class="img-responsive" src="/static/images/products/15/image4xxl.jpg" alt=""></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="simple-product-details col-md-6 col-xs-12 margin-bottom-20">
+                                    <h1 class="product-details--title">Blue Printed Hoodies</h1>
+                                    <div class="product-details--rating">
+                                        <p class="rating">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                            <span>(5 Customers reviews)</span>
+                                        </p>
+                                    </div>
+                                    <div class="product-details--price">
+                                        <p class="price">£99.00</p>
+                                    </div>
+                                    <div class="short-description">
+                                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                    </div>
+                                    <div class="product-details--sku">
+                                        <p><b>SKU: </b><span>017</span></p>
+                                    </div>
+                                    <div class="product-details--category">
+                                        <p><b>Category: </b><span><a href="core-pg-productdetail.html#">Outerwear</a>, <a href="core-pg-productdetail.html#">Hoodies</a></span></p>
+                                    </div>
+                                    <div class="product-details--tags margin-bottom-25">
+                                        <p><b>Tags: </b><span><a href="core-pg-productdetail.html#">Clothing</a>, <a href="core-pg-productdetail.html#">Mens</a></span></p>
+                                    </div>
+                                    <div class="product-details--action fix margin-bottom-20">
+                                        <div class="product-details--quantity margin-bottom-10">
+                                            <div class="pro-qty">
+                                                <input type="text" value="0" name="field" class="cart-plus-minus-box" />
+                                                <span class="inc qtybtn">
+<button class="qty" type="button" data-func="plus" data-field="field"><i class="fa fa-caret-up" aria-hidden="true"></i></button>
+</span>
+                                                <span class="dec qtybtn">
+<button class="qty" type="button" data-func="minus" data-field="field"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-details--addtocart margin-bottom-10">
+                                            <button class="btn btn-large btn-addtocart">add to cart <span><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></button>
+                                        </div>
+                                    </div>
+                                    <div class="product-details--wishlist">
+                                        <button class="addtowishlist"><i class="fa fa-heart-o" aria-hidden="true"></i> Add to wishlist</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-share fix text-center margin-bottom-25">
+                            <ul class="nav share">
+                                <li><a href="core-pg-productdetail.html#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="core-pg-productdetail.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="core-pg-productdetail.html#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="core-pg-productdetail.html#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product-description fix margin-bottom-65">
+                            <div id="tabss" class="product-details-tab-container">
+                                <ul class="nav product-details-tablist margin-bottom-25" role="tablist">
+                                    <li class="active"><a href="core-pg-productdetail.html#des" data-toggle="tab">Description</a></li>
+                                    <li><a href="core-pg-productdetail.html#add" data-toggle="tab">Additional infomation</a></li>
+                                    <li><a href="core-pg-productdetail.html#reviews" data-toggle="tab">Reviews</a></li>
+                                </ul>
+                                <div class="tab-content col-md-8 col-md-offset-2">
+                                    <div role="tabpanel" class="tab-pane active" id="des">
+                                        <p class="des">Cookie dragee croissant dessert. Powder marshmallow pie wafer dessert sweet roll tootsie roll cupcake. Tart oat cake lollipop lollipop halvah chupa chups bonbon sugar plum dessert. Carrot cake marzipan cupcake cotton candy powder wafer sugar plum powder powder. Macaroon topping chocolate. Cake jelly beans icing tiramisu. Ice cream bonbon tart sesame snaps.</p>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="add">
+                                        <table class="table table-responsive table-dotted">
+                                            <colgroup>
+                                                <col class="col-xs-2">
+                                                <col class="col-xs-3">
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Weight</td>
+                                                    <td>1.5 kg</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Dimensions</td>
+                                                    <td>90 x 60 x 90 cm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Composition</td>
+                                                    <td>100% Cotton</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Colour</td>
+                                                    <td>Blue, Gray, Red</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Size</td>
+                                                    <td>Extra Small, Large, Medium, Small</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="reviews">
+                                        <div class="reviews fix">
+                                            <h3 class="margin-bottom-35">2 Reviews For Hendry Backpack</h3>
+                                            <ul class="review-list">
+                                                <li>
+                                                    <div class="avata">
+                                                        <img src="/static/images/products/23/image3xxl5.jpg" alt="" class="img-circle img-responsive" />
+                                                    </div>
+                                                    <div class="review-content fix">
+                                                        <div class="meta">
+                                                            <div class="col-sm-9 col-xs-12 text-left">
+                                                                <p><span class="author">Cobus Bester</span> - June 7, 2016</p>
+                                                            </div>
+                                                            <div class="col-sm-3 col-xs-12">
+                                                                <div class="reviewrating">
+                                                                    <p class="rating">
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="rating-des">
+                                                            <div class="col-sm-12">
+                                                                <p>You only get the picture, not the person holding it, something they don’t mention in the description, now I’ve got to find my own person.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="avata">
+                                                        <img src="/static/images/products/33/6147669-1-grey.jpg" alt="" class="img-circle img-responsive" />
+                                                    </div>
+                                                    <div class="review-content fix">
+                                                        <div class="meta">
+                                                            <div class="col-sm-9 col-xs-12 text-left">
+                                                                <p><span class="author">Maria sun</span> – June 7, 2016</p>
+                                                            </div>
+                                                            <div class="col-sm-3 col-xs-12">
+                                                                <div class="reviewrating">
+                                                                    <p class="rating">
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="rating-des">
+                                                            <div class="col-sm-12">
+                                                                <p>This is a Fantastic quality print and is happily hanging framed on my wall now.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="rating-form-wrapper fix">
+                                            <h3>Add a Review</h3>
+                                            <p class="relative">Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+                                            <div class="rating-form">
+                                                <form action="core-pg-productdetail.html#">
+                                                    <table class="table table-responsive table-rating">
+                                                        <colgroup>
+                                                            <col class="col-xs-2">
+                                                            <col class="col-xs-6">
+                                                        </colgroup>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <p>Your rating</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="rating">
+                                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p class="relative">Your review<span class="required">*</span></p>
+                                                                </td>
+                                                                <td>
+                                                                    <textarea name="review" id="your-review"></textarea>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p class="relative">Name<span class="required">*</span></p>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" id="name" class="field">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <p class="relative">Email<span class="required">*</span></p>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="text" id="email" class="field">
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td></td>
+                                                                <td>
+                                                                    <input class="btn btn-large btn-submit" type="submit" value="Submit">
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="related-products margin-bottom-45">
+                            <h2 class="title text-center"><span>Related Products</span></h2>
+                            <div class="row">
+                                <div class="product text-center col-md-3 col-sm-6 col-xs-6">
+                                    <div class="hover-box">
+                                        <a class="img-product" href="core-pg-productdetail.html#">
+                                            <img class="img-responsive" src="/static/images/products/2/image1xxl.jpg" alt="">
+                                        </a>
+                                        <span class="sticker sale"><strong>Sale</strong></span>
+                                        <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                        <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="product-info">
+                                        <h3 class="pc-title"><a href="core-pg-productdetail.html#">Jackets &amp; Coats</a></h3>
+                                        <h4 class="product-title"><a href="core-pg-productdetail.html#">Wool Ghost Print T-Shirt</a></h4>
+                                        <span class="price">£99.00</span>
+                                    </div>
+                                    <hr>
+                                </div>
+                                <div class="product text-center col-md-3 col-sm-6 col-xs-6">
+                                    <div class="hover-box">
+                                        <a class="img-product" href="core-pg-productdetail.html#">
+                                            <img class="img-responsive" src="/static/images/products/1/image1xxl.jpg" alt="">
+                                        </a>
+                                        <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                        <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="product-info">
+                                        <h3 class="pc-title"><a href="core-pg-productdetail.html#">Outerwaer</a></h3>
+                                        <h4 class="product-title"><a href="core-pg-productdetail.html#">Bluberry Woolen Tshirt</a></h4>
+                                        <span class="price">£67.00</span>
+                                    </div>
+                                    <hr>
+                                </div>
+                                <div class="product text-center col-md-3 col-sm-6 col-xs-6">
+                                    <div class="hover-box">
+                                        <a class="img-product" href="core-pg-productdetail.html#">
+                                            <img class="img-responsive" src="/static/images/products/4/image1xxl.jpg" alt="">
+                                        </a>
+                                        <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                        <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="product-info">
+                                        <h3 class="pc-title"><a href="core-pg-productdetail.html#">Tshirt &amp; Cloths</a></h3>
+                                        <h4 class="product-title"><a href="core-pg-productdetail.html#">White Full hand Facyiator </a></h4>
+                                        <span class="price">£99.00</span>
+                                    </div>
+                                    <hr>
+                                </div>
+                                <div class="product text-center col-md-3 col-sm-6 col-xs-6">
+                                    <div class="hover-box">
+                                        <a class="img-product" href="core-pg-productdetail.html#">
+                                            <img class="img-responsive" src="/static/images/products/6/image1xxl.jpg" alt="">
+                                        </a>
+                                        <button class="sticker wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                                        <button class="addtocart"><span>Add to cart</span><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="product-info">
+                                        <h3 class="pc-title"><a href="core-pg-productdetail.html#">Tshirt</a></h3>
+                                        <h4 class="product-title"><a href="core-pg-productdetail.html#">Spring Martre Full Shirt</a></h4>
+                                        <span class="price">£65.00</span>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% include 'utils-footer.html' %}
+            <a href="core-pg-productdetail.html#" id="back-to-top" title="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>
