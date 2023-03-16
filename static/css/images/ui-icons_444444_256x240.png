@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Bootpify Offical Demo Site</title>
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="description" content="Bootpify Offical Demo Site is where Bootpify Team show all awesome shopify templates">
+<meta name="keywords" content="Shopify theme demo, shopify template, shopify expert">
+ 
+<link rel="stylesheet" href="http://demo.bootpify.com/wp-content/plugins/fbar/css/frame.css">
+ 
+<link rel="shortcut icon" href="https://demo.bootpify.com/wp-content/uploads/2017/02/">
+ 
+<script type="text/javascript" src="http://demo.bootpify.com/wp-content/plugins/fbar/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.js"></script>
+<script src="http://demo.bootpify.com/wp-content/plugins/fbar/js/custom.js"></script>
+</head>
+<body>
+<div id="switcher" style="background-color: #000000">
+<div class="center">
+<div class="logo"> <a href="ui-icons_444444_256x240.png" title="Bootpify Offical Demo Site"> <img height="55" src="https://demo.bootpify.com/wp-content/uploads/2017/02/bootpify-logo-white.png" alt="Bootpify Offical Demo Site"/> </a> </div>
+<ul>
+<li id="theme_list"><a id="theme_select" href="ui-icons_444444_256x240.png#">
+Select a theme...
+</a>
+<ul id="test1a">
+<li><a href="https://demo.bootpify.com/?theme=SK-Store-Home-1">SK-Store-Home-1 <span style="background-color: #99cc00">Shopify</span></a><img alt="" class="preview" src="https://demo.bootpify.com/wp-content/uploads/2017/01/04_SK_Home_4-min.jpg"/></li><li><a href="https://demo.bootpify.com/?theme=SK-Store-Home-2">SK-Store-Home-2 <span style="background-color: #99cc00">Shopify</span></a><img alt="" class="preview" src="https://demo.bootpify.com/wp-content/uploads/2017/01/01_SK_Home_1-min.jpg"/></li><li><a href="https://demo.bootpify.com/?theme=SK-Store-Home-3">SK-Store-Home-3 <span style="background-color: #99cc00">Shopify</span></a><img alt="" class="preview" src="https://demo.bootpify.com/wp-content/uploads/2017/01/02_SK_Home_2-min.jpg"/></li><li><a href="https://demo.bootpify.com/?theme=SK-Store-Home-4">SK-Store-Home-4 <span style="background-color: #99cc00">Shopify</span></a><img alt="" class="preview" src="https://demo.bootpify.com/wp-content/uploads/2017/01/03_SK_Home_3-min.jpg"/></li><li><a href="https://demo.bootpify.com/?theme=bigcart-html">Bigcart-html <span style="background-color: #339966">HTML</span></a><img alt="" class="preview" src="https://demo.bootpify.com/wp-content/uploads/2017/04/thumbnail.jpg"/></li><li><a href="https://demo.bootpify.com/?theme=Hexagone HTML">Hexagone HTML <span style="background-color: #339966">HTML</span></a><img alt="" class="preview" src="https://demo.bootpify.com/wp-content/uploads/2017/04/preview.__large_preview.jpg"/></li><li><a href="https://demo.bootpify.com/?theme=Universe-HTML">Universe-HTML <span style="background-color: #339966">HTML</span></a><img alt="" class="preview" src="https://demo.bootpify.com/wp-content/uploads/2017/04/universe_preview.__large_preview.jpg"/></li><li><a href="https://demo.bootpify.com/?theme=Onews HTML">Onews HTML <span style="background-color: #008080">HTML</span></a></li>
+</ul>
+</li>
+</ul>
+<div class="responsive"> <a href="ui-icons_444444_256x240.png#" class="desktop active" title="View Desktop Version"></a> <a href="ui-icons_444444_256x240.png#" class="tabletlandscape" title="View Tablet Landscape (1024x768)"></a> <a href="ui-icons_444444_256x240.png#" class="tabletportrait" title="View Tablet Portrait (768x1024)"></a> <a href="ui-icons_444444_256x240.png#" class="mobilelandscape" title="View Mobile Landscape (480x320)"></a> <a href="ui-icons_444444_256x240.png#" class="mobileportrait" title="View Mobile Portrait (320x480)"></a> </div>
+<div class="share">
+<ul>
+<li><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://themeforest.net/item/sk-store-responsive-shopify-theme/19286774?ref=bootpify" data-lang="en">Tweet</a>
+<script>!function(d, s, id) {
+
+                                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+
+                                            if (!d.getElementById(id)) {
+
+                                                js = d.createElement(s);
+
+                                                js.id = id;
+
+                                                js.src = p + '://platform.twitter.com/widgets.js';
+
+                                                fjs.parentNode.insertBefore(js, fjs);
+
+                                            }
+
+                                        }(document, 'script', 'twitter-wjs');</script></li>
+<li>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+
+  var js, fjs = d.getElementsByTagName(s)[0];
+
+  if (d.getElementById(id)) return;
+
+  js = d.createElement(s); js.id = id;
+
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7";
+
+  fjs.parentNode.insertBefore(js, fjs);
+
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-share-button" data-href="https://themeforest.net/item/sk-store-responsive-shopify-theme/19286774?ref=bootpify" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://themeforest.net/item/sk-store-responsive-shopify-theme/19286774?ref=bootpify%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+</li>
+<li>
+ 
+<div class="g-plus" data-action="share" data-annotation="bubble" data-href="https://themeforest.net/item/sk-store-responsive-shopify-theme/19286774?ref=bootpify"></div>
+<script type="text/javascript">
+
+  (function() {
+
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+
+    po.src = 'https://apis.google.com/js/platform.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+
+  })();
+
+</script></li>
+</ul>
+</div>
+<ul class="links">
+<li class="purchase" rel="https://themeforest.net/item/sk-store-responsive-shopify-theme/19286774?ref=bootpify"> <a href="https://themeforest.net/item/sk-store-responsive-shopify-theme/19286774?ref=bootpify"><img src="http://demo.bootpify.com/wp-content/plugins/fbar/images/purchase.png" alt="Web Design Tunes Themes"/> Purchase</a> </li>
+<li class="close" rel="https://demo-skstore-home-1.myshopify.com/"> <a href="https://demo-skstore-home-1.myshopify.com/"><img src="http://demo.bootpify.com/wp-content/plugins/fbar/images/cross.png" alt="Web Design Tunes Themes"/> Close</a></li>
+</ul>
+</div>
+</div>
+<iframe id="iframe" src="https://demo-skstore-home-1.myshopify.com/" frameborder="0" width="100%" height="100%"></iframe>
+</body>
+</html>
